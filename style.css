@@ -1,9 +1,15 @@
 body {
-  width:90%;
+  width:900px;
+  border:1px solid lightgray;
+  margin:auto;
+  padding:20px;
+  background-color:white;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 th {
   vertical-align:top;
+  background:lightblue;
 }
 
 td {
@@ -17,4 +23,13 @@ th {
 
 ul {
    margin:0;
+}
+table {
+  max-width:850px;
+  background:rgb(205, 231, 175);
+  text-align:left;
+  margin:auto;
+}
+td:nth-child(4){
+  text-align:center;
 }
